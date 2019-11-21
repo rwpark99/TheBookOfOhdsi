@@ -397,9 +397,9 @@ knitr::include_graphics("images/PatientLevelPrediction/covariateSettings2.png")
 The standard covariates enable three flexible time intervals for the covariates:
 
 - end days: when to end the time intervals relative to the cohort start date [default is 0]
-- long term [default -365 days to end days prior to cohort start date]
-- medium term [default -180 days to end days prior to cohort start date]
-- short term [default -30 days to end days prior to cohort start date]
+- long term [default: -365 days to end days prior to cohort start date]
+- medium term [default: -180 days to end days prior to cohort start date]
+- short term [default: -30 days to end days prior to cohort start date]
 
 Once done, this section should look like Figure \@ref(fig:covariateSettings3).
 
